@@ -24,6 +24,8 @@ async def on_message(message):
             await message.channel.send(message.content[3:])
         elif message.content.startswith("|s"):
             await message.channel.send("fixed <:morningsol:473551130379550742>")
+        elif message.content.startswith("|c"):
+            await message.channel.send("WIP command")
 
 
 
